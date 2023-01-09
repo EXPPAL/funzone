@@ -8,7 +8,7 @@ const Contact = () => {
                 <Image
                     draggable="false"
                     className="mx-auto"
-                    src="/images/background11.jpg"
+                    src="/images/background12.jpg"
                     alt="landing"
                     width={900}
                     height={900}
