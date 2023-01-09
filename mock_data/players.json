@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+		"rank": 1,
+        "avatar": "/images/players/player_1.png",
+        "name": "Player 1",
+		"power": 1000,
+        "hits": 1000,
+        "active": true,
+        "pending": false
+    },
+    {
+        "id": 2,
+		"rank": 2,
+        "avatar": "/images/players/player_2.png",
+        "name": "Player 2",
+		"power": 900,
+        "hits": 900,
+        "active": true,
+        "pending": false
+    },
+    {
+        "id": 3,
+		"rank": 3,
+        "avatar": "/images/players/player_3.png",
+        "name": "Player 3",
+		"power": 800,
+        "hits": 800,
+        "active": true,
+        "pending": true
+    },
+    {
+        "id": 4,
+		"rank": 4,
+        "avatar": "/images/players/player_1.png",
+        "name": "Player 4",
+		"power": 700,
+        "hits": 700,
+        "active": true,
+        "pending": false
+    },
+    {
+        "id": 5,
+		"rank": 5,
+        "avatar": "/images/players/player_2.png",
+        "name": "Player 5",
+		"power": 600,
+        "hits": 600,
+        "active": true,
+        "pending": false
+    },
+    {
+        "id": 6,
+		"rank": 6,
+        "avatar": "/images/players/player_1.png",
+        "name": "Player 6",
+		"power": 500,
+        "hits": 500,
+        "active": false,
+        "pending": true
+    },
+    {
+        "id": 7,
+		"rank": 7,
+        "avatar": "/images/players/player_2.png",
+        "name": "Player 7",
+		"power": 400,
+        "hits": 400,
+        "active": false,
+        "pending": true
+    },
+    {
+        "id": 8,
+		"rank": 8,
+        "avatar": "/images/players/player_3.png",
+        "name": "Player 8",
+		"power": 300,
+        "hits": 300,
+        "active": false,
+        "pending": true
+    },
+    {
+        "id": 9,
+		"rank": 9,
+        "avatar": "/images/players/player_1.png",
+        "name": "Player 9",
+		"power": 200,
+        "hits": 200,
+        "active": false,
+        "pending": true
+    },
+    {
+        "id": 10,
+		"rank": 10,
+        "avatar": "/images/players/player_2.png",
+        "name": "Player 10",
+		"power": 100,
+        "hits": 100,
+        "active": false,
+        "pending": true
+    }
+]

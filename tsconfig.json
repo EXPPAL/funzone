@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/api-lib/*": [
+        "api-lib/*"
+      ],
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/config/*": [
+        "config/*"
+      ],
+      "@/lib/*": [
+        "lib/*"
+      ],
+      "@/models/*": [
+        "models/*"
+      ],
+      "@/mock_data/*": [
+        "mock_data/*"
+      ],
+      "@/store/*": [
+        "store/*"
+      ]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "allowUnreachableCode": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    // "isolatedModules": true,
+    "jsx": "preserve",
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "models/Token.js",
+    "models/Referral.js",
+    "models/UserItem.js",
+    "models/UserExcavator.js",
+    "models/UserFactory.js",
+    "models/Excavator.js"
+, "pages/login.tsx", "components/partials/gameDefault.jsx", "pages/games/[id].jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

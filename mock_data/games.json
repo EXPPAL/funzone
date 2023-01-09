@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"rank": 1,
+		"avatar": "/images/games/clan_1.png",
+		"name": "Game 1",
+		"leader": "",
+		"power": 1000,
+		"members": null,
+        "active": true,
+        "pending": false,
+		"tax": null
+	},
+	{
+		"id": 2,
+		"rank": 2,
+		"avatar": "/images/games/game_2.png",
+		"name": "Game 2",
+		"leader": "",
+		"power": 900,
+		"members": null,
+        "active": true,
+        "pending": false,
+		"tax": null
+	},
+	{
+		"id": 3,
+		"rank": 3,
+		"avatar": "/images/games/game_3.png",
+		"name": "Game 3",
+		"leader": "",
+		"power": 800,
+		"members": null,
+        "active": true,
+        "pending": true,
+		"tax": null
+	},
+	{
+		"id": 4,
+		"rank": 4,
+		"avatar": "/images/games/game_1.png",
+		"name": "Game 4",
+		"leader": "",
+		"power": 700,
+		"members": null,
+        "active": true,
+        "pending": false,
+		"tax": null
+	},
+	{
+		"id": 5,
+		"rank": 5,
+		"avatar": "/images/games/game_2.png",
+		"name": "Game 5",
+		"leader": "",
+		"power": 600,
+		"members": null,
+        "active": true,
+        "pending": false,
+		"tax": null
+	},
+	{
+		"id": 6,
+		"rank": 6,
+		"avatar": "/images/games/game_3.png",
+		"name": "Game 6",
+		"leader": "",
+		"power": 500,
+		"members": null,
+        "active": false,
+        "pending": true,
+		"tax": null
+	},
+	{
+		"id": 7,
+		"rank": 7,
+		"avatar": "/images/games/game_1.png",
+		"name": "Game 7",
+		"leader": "",
+		"power": 400,
+		"members": null,
+        "active": false,
+        "pending": true,
+		"tax": null
+	},
+	{
+		"id": 8,
+		"rank": 8,
+		"avatar": "/images/games/game_2.png",
+		"name": "Game 8",
+		"leader": "",
+		"power": 300,
+		"members": null,
+        "active": false,
+        "pending": true,
+		"tax": null
+	},
+	{
+		"id": 9,
+		"rank": 9,
+		"avatar": "/images/games/game_3.png",
+		"name": "Game 9",
+		"leader": "",
+		"power": 200,
+		"members": null,
+        "active": false,
+        "pending": true,
+		"tax": null
+	},
+	{
+		"id": 10,
+		"rank": 10,
+		"avatar": "/images/games/game_1.png",
+		"name": "Game 10",
+		"leader": "",
+		"power": 100,
+		"members": null,
+        "active": false,
+        "pending": true,
+		"tax": null
+	}
+]
