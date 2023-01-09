@@ -45,19 +45,19 @@ const Login = () => {
             </div>
 
             <Tabs
-                className="w-[300px] mx-auto mt-10 mb-0 bg_drop divide-x divide-gray-500"
+                className="w-[300px] mx-auto mt-10 mb-0 divide-x divide-gray-500"
                 contentClass="my-auto"
             >
 
                 <Tab title="Login" active>
-                    <div className="bg_drop w-1/2 mx-auto bg-black border rounded-lg py-8 px-28">
+                    <div className="w-1/2 mx-auto bg-white border rounded-lg py-8 px-28">
                         <form className="space-y-2" onSubmit={handleSubmit}>
                             <div className="text-center">
-                                <label className="text-2xl font-medium text-white">
-                                    <Burn title="† Username †" />
+                                <label className="text-2xl font-medium text-secondary">
+                                    † Username †
                                 </label>
                                 <input
-                                    className="bg_drop border rounded-lg w-full py-3 px-4 bg-black mt-2"
+                                    className="font-montserrat border border-[#767676] rounded-[25px] w-full py-3 px-5 bg-[#e6e6e6] mt-2"
                                     type="text"
                                     placeholder="Username"
                                     value={username}
@@ -75,11 +75,11 @@ const Login = () => {
                             </div>
 
                             <div className="text-center">
-                                <label className="text-2xl text-white font-medium">
-                                    <Burn title="† Password †" />
+                                <label className="text-2xl text-secondary font-medium">
+                                    † Password †
                                 </label>
                                 <input
-                                    className="bg_drop border rounded-lg w-full py-3 px-4 bg-black mt-2"
+                                    className="text-dark font-montserrat border border-[#767676] rounded-[25px] w-full py-3 px-5 bg-[#e6e6e6] mt-2"
                                     type="password"
                                     placeholder="Password"
                                     value={password}
@@ -99,7 +99,7 @@ const Login = () => {
                             <div className="flex justify-center">
                                 <button
                                     draggable="false"
-                                    className="bg_drop bg-black border rounded-lg pt-2 pb-3 px-14 text-2xl font-semibold mt-4 transition-transform hover:scale-95"
+                                    className="inline-block px-6 py-2.5 bg-secondary text-white font-medium text-md leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                                     type="submit"
                                 >
                                     {loading ? <Loading /> : "Login"}

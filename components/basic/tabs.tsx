@@ -19,7 +19,7 @@ export function Tabs({ children, className, contentClass = '', titleClass='' }: 
   return (
     <>
 	
-	<ul className={"font-press flex space-x-0 mb-5 text-center rounded-lg " + className}>
+	<ul className={" flex space-x-0 mb-5 text-center rounded-lg " + className}>
         {children.map((item, i) => {
           return (
             <React.Fragment  key={`tab-${i}`}>

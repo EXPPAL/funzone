@@ -28,25 +28,25 @@ const GamePage = () => {
 
         <div className="my-auto flex flex-wrap justify-center space-x-10 w-full pt-20">
           <div className="basis-1/6 flex flex-col items-end">
-              <div className="font-bold bg_drop rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
+              <div className="font-bold  rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
                   <span className="mr-5">⏰</span>
                   <span className="text-center flex-1">
                       00:00
                   </span>
               </div>
-              <div className="font-bold bg_drop rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
+              <div className="font-bold  rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
                   <span className="mr-5">📆</span>
                   <span className="text-center flex-1">000</span>
               </div>
-              <div className="font-bold bg_drop rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
+              <div className="font-bold  rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
                   <span className="mr-5">💎</span>
                   <span className="text-center flex-1">{ Math.floor(status.metal).toString().padStart(4,'0') }</span>
               </div>
-              <div className="font-bold bg_drop rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
+              <div className="font-bold  rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
                   <span className="mr-5">⚡</span>
                   <span className="text-center flex-1">{ Math.floor(status.energy).toString().padStart(4,'0') }</span>
               </div>
-              <div className="font-bold bg_drop rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
+              <div className="font-bold  rounded-lg w-2/3 border-2 py-3 px-6 bg-dark flex items-center mb-4">
                   <span className="mr-5">💪</span>
                   <span className="text-center flex-1">0000</span>
               </div>
@@ -55,7 +55,7 @@ const GamePage = () => {
           <div className="basis-1/2 !ml-[50px] flex flex-col">
             <div className="relative flex-1 mb-8">
               <div className="absolute left-0 w-full top-0 translate-y-[-50%] flex justify-center">
-                <div className="bg_drop w-20 h-20 bg-dark rounded-lg mr-5 text-[48px] leading-[80px] text-center">
+                <div className=" w-20 h-20 bg-dark rounded-lg mr-5 text-[48px] leading-[80px] text-center">
                   {
                     player && player.avatar ? <Image
                       draggable={false}
@@ -72,8 +72,8 @@ const GamePage = () => {
                     />
                   }
                 </div>
-                <div className="p-4 border-2 bg_drop bg-dark rounded-lg">
-                  <h2 className="text-white font-press font-bold text-center text-lg">
+                <div className="p-4 border-2  bg-dark rounded-lg">
+                  <h2 className="text-white font-bold text-center text-lg">
                     {
                       player && player.name ? player.name : "Annoymous"
                     }
@@ -82,7 +82,7 @@ const GamePage = () => {
               </div>
 
               <div
-                className={"p-4 border-2 bg_drop bg-cover rounded-lg bg-dark h-full min-h-[360px]"}
+                className={"p-4 border-2  bg-cover rounded-lg bg-dark h-full min-h-[360px]"}
                 style={{
                   backgroundImage: 'url("/images/background4.jpg")'
                 }}
@@ -106,7 +106,7 @@ const GamePage = () => {
                         </div>
                         <a
                             draggable="false"
-                            className="bg_drop rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
+                            className=" rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
                             href="#"
                             title="Logs"
                             // onClick={onToggleLogsBox}
@@ -135,7 +135,7 @@ const GamePage = () => {
             <div className="basis-1/2 px-[10px] text-[56px] font-bold mb-4">
                 <a
                     draggable="false"
-                    className="bg_drop rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
+                    className=" rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
                     href="#"
                     // onClick={openModalProfile}
                     title="Profile"
@@ -149,7 +149,7 @@ const GamePage = () => {
             <div className="basis-1/2 px-[10px] text-[56px] font-bold mb-4">
               <a
                   draggable="false"
-                  className="bg_drop rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
+                  className=" rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
                   href="#"
                   title="Alliances"
                   // onClick={openModalAlliance}
@@ -163,7 +163,7 @@ const GamePage = () => {
             <div className="basis-1/2 px-[10px] text-[56px] font-bold mb-4">
               <a
                 draggable="false"
-                className="bg_drop rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
+                className=" rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
                 href="#"
                 // onClick={onToggleTechBox}
                 title="Research Upgrade Center"
@@ -177,7 +177,7 @@ const GamePage = () => {
             <div className="basis-1/2 px-[10px] text-[56px] font-bold mb-4">
               <a
                 draggable="false"
-                className="bg_drop rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
+                className=" rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
                 href="#"
                 title="Settings"
                 // onClick={openModalSettings}
@@ -191,7 +191,7 @@ const GamePage = () => {
             <div className="basis-1/2 px-[10px] text-[56px] font-bold">
               <a
                 draggable="false"
-                className="bg_drop rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
+                className=" rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
                 href="#"
                 title="Excavator Upgrade Center"
                 // onClick={openModalExcavators}
@@ -205,7 +205,7 @@ const GamePage = () => {
             <div className="basis-1/2 px-[10px] text-[56px] font-bold">
                 <a
                     draggable="false"
-                    className="bg_drop rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
+                    className=" rounded-lg block bg-dark font-icon relative pt-[100%] h-0 transition "
                     href="#"
                     title="Logout"
                     // onClick={openModalLogout}

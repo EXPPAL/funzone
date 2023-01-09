@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <PersistGate loading={null} persistor={store._persistor}>
           <div
             draggable="false"
-            className="bg-black bg-fixed bg-center bg-cover text-white max-h-screen relative select-none bg-[url('/images/background3.jpg')] before:content-[''] before:absolute before:left-0 before:right-0 before:top-0 before:bottom-0 before:opacity-60 before:bg-gradient-radial-at-br before:to-[#0a03a8] before:via-[#171717] before:from-[#bf010b]"
+            className="bg-black bg-fixed bg-center bg-cover text-white max-h-screen relative select-none before:content-[''] before:absolute before:left-0 before:right-0 before:top-0 before:bottom-0 before:opacity-60 before:bg-gradient-radial-at-br before:to-[#0a03a8] before:via-[#171717] before:from-[#bf010b]"
           >
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-[url('/images/background1.png')] mix-blend-color-dodge bg-no-repeat bg-[left_42%_bottom] bg-[length:100%_60%] pointer-events-none"></div>
 

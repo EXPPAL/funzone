@@ -77,7 +77,7 @@ const Captcha = (props) => {
                 <input
                     type="number"
                     id="captcha"
-                    className="bg-black bg_drop text-white border py-4 px-5 rounded"
+                    className="bg-black  text-white border py-4 px-5 rounded"
                     placeholder="Enter the sum"
                     value={sum}
                     onChange={(e) => {
@@ -88,7 +88,7 @@ const Captcha = (props) => {
             <div className="flex justify-center">
                 <button draggable="false"
                     type="submit"
-                    className="bg_drop bg-black border rounded-lg pt-2 pb-3 px-14 text-2xl font-semibold mt-4 transition-transform hover:scale-95"
+                    className=" bg-black border rounded-lg pt-2 pb-3 px-14 text-2xl font-semibold mt-4 transition-transform hover:scale-95"
                 >
                     {loading ? <Loading /> : "Submit"}
                 </button>

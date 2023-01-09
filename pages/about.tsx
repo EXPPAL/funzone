@@ -14,7 +14,7 @@ const About = () => {
                     <Burn title="What do you do in FunZone?" />
                 </h2>
 
-                <p className="border-2 rounded-lg shadow-[-1px_1px_10px_2px_rgba(255,255,255,0.5)] bg_drop bg-black p-14 text-lg text-justify mb-16">
+                <p className="border-2 rounded-lg shadow-[-1px_1px_10px_2px_rgba(255,255,255,0.5)] bg-black p-14 text-md text-justify mb-16">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa....
                     <br />
                     <br />

@@ -8,7 +8,7 @@ const Index = () => {
                 <Image
                     draggable="false"
                     className="mx-auto"
-                    src="/images/background9.jpg"
+                    src="/images/home.jpg"
                     alt="landing"
                     width={900}
                     height={900}

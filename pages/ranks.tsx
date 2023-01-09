@@ -78,7 +78,7 @@ const customTableStyles = {
 			search: "!w-full !bg-transparent !text-white"
 		}
 	},
-	main: "bg_drop rounded-lg !bg-dark border-2 rounded-lg",
+	main: "rounded-lg !bg-dark border-2 rounded-lg",
 	table_head: {
 		table_row: "!bg-transparent text-white text-center",
 		table_data: "border border-gray-500 first:border-l-0 last:border-r-0 bg-transparent !text-white text-center !px-0 uppercase font-bold"
@@ -133,7 +133,7 @@ const Ranks = () => {
 			</Head>
 
 			<div className="my-auto">
-				<Tabs className="w-1/2 mx-auto mb-2 bg_drop divide-x divide-gray-500 mt-10">
+				<Tabs className="w-1/2 mx-auto mb-2 divide-x divide-gray-500 mt-10">
 					<Tab title="Top Players" active>
 						<div className="w-1/2 mx-auto">
 							<Table 

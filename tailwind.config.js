@@ -23,12 +23,13 @@ module.exports = {
 
         extend: {
             colors: {
-                primary: '#1F68D6',
-                secondary: '#F5DE57',
+                primary: '#c2000d',
+                secondary: '#0903ac',
                 dark: "#171717"
             },
             fontFamily: {
-                calibri: ['Calibri', 'sans-serif'],
+                poppins: ['Poppins', 'sans-serif'],
+                montserrat: ['Montserrat', 'snas-serif']
             },
             boxShadow: {
                 small: '0px 2px 20px rgba(0, 0, 0, 0.03)',

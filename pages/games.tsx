@@ -23,11 +23,11 @@ const Game = () => {
 			</Head>
 
 			<Tabs
-				className="w-1/3 mx-auto mt-16 bg_drop divide-x divide-gray-500"
+				className="w-1/3 mx-auto mt-16 divide-x divide-gray-500"
 				contentClass="my-auto"
 			>
 				<Tab title="Single Games">
-					<div className="p-4 border-2 bg_drop bg-black rounded-lg">
+					<div className="p-4 border-2 bg-black rounded-lg">
 						<Swiper
 							modules={[Navigation, Scrollbar, Mousewheel ]}
 							spaceBetween={20}
@@ -46,7 +46,7 @@ const Game = () => {
 					</div>
 				</Tab>
 				<Tab title="Multiple Games">
-					<div className="p-4 border-2 bg_drop rounded-lg bg-black">
+					<div className="p-4 border-2 rounded-lg bg-black">
 						<Swiper
 							modules={[Navigation, Scrollbar, Mousewheel ]}
 							spaceBetween={20}
