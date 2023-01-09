@@ -11,6 +11,7 @@ import 'swiper/css/scrollbar';
 import {Tabs, Tab} from "@/components/basic/tabs";
 
 import games from '@/mock_data/games.json';
+import wars from '@/mock_data/wars.json';
 import Link from 'next/link';
 import GameDefault from '@/components/partials/gameDefault';
 
@@ -25,7 +26,7 @@ const Game = () => {
 				className="w-1/3 mx-auto mt-16 bg_drop divide-x divide-gray-500"
 				contentClass="my-auto"
 			>
-				<Tab title="List of Games">
+				<Tab title="Single Games">
 					<div className="p-4 border-2 bg_drop bg-black rounded-lg">
 						<Swiper
 							modules={[Navigation, Scrollbar, Mousewheel ]}
@@ -44,7 +45,7 @@ const Game = () => {
 						</Swiper>
 					</div>
 				</Tab>
-				<Tab title="Clan Wars">
+				<Tab title="Multiple Games">
 					<div className="p-4 border-2 bg_drop rounded-lg bg-black">
 						<Swiper
 							modules={[Navigation, Scrollbar, Mousewheel ]}
@@ -73,10 +74,10 @@ const Game = () => {
 										</div>
 										<div className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
 											<Image draggable="false" 
-												src="/images/sword.png"
+												src="/images/vs.png"
 												alt="sniper"
-												width={50}
-												height={50}
+												width={80}
+												height={80}
 											/>
 										</div>
 									</div>
