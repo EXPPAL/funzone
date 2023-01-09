@@ -19,7 +19,7 @@ const Game = () => {
 	return (
 		<>
 			<Head>
-				<title>Secrets of War † Reborn | Game</title>
+				<title>Funzone | Game</title>
 			</Head>
 
 			<Tabs

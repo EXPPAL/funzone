@@ -129,7 +129,7 @@ const Ranks = () => {
 	return (
 		<>
 			<Head>
-				<title>Secrets of War † Reborn | Ranks</title>
+				<title>Funzone | Ranks</title>
 			</Head>
 
 			<div className="my-auto">

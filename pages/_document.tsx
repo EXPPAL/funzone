@@ -9,8 +9,8 @@ export default function Document() {
           <meta name="keywords" content="free, online, multiplayer, game, mmorpg, mmo, rpg, sow, sowgame" />
           <link rel="icon" type="image/icon type" href="/favicon.ico"></link>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
       </Head>
       <body>
         <Main />
