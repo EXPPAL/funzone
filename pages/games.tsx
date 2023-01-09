@@ -11,7 +11,6 @@ import 'swiper/css/scrollbar';
 import {Tabs, Tab} from "@/components/basic/tabs";
 
 import games from '@/mock_data/games.json';
-import wars from '@/mock_data/wars.json';
 import Link from 'next/link';
 import GameDefault from '@/components/partials/gameDefault';
 
