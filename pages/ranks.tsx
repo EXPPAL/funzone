@@ -133,9 +133,9 @@ const Ranks = () => {
 			</Head>
 
 			<div className="my-auto">
-				<Tabs className="w-1/2 mx-auto mb-2 divide-x divide-gray-500 mt-10">
+				<Tabs className="md:md:w-1/2 mx-auto mb-2 divide-x divide-gray-500 mt-10">
 					<Tab title="Top Players" active>
-						<div className="w-1/2 mx-auto">
+						<div className="md:w-1/2 mx-auto">
 							<Table 
 								per_page={5}
 								striped={false}
@@ -149,7 +149,7 @@ const Ranks = () => {
 						</div>
 					</Tab>
 					<Tab title="Top Newbies">
-						<div className="w-1/2 mx-auto">
+						<div className="md:w-1/2 mx-auto">
 						<Table 
 							per_page={5}
 							striped={false}
@@ -163,7 +163,7 @@ const Ranks = () => {
 						</div>
 					</Tab>
 					<Tab title="Hall of Shame">
-						<div className="w-1/2 mx-auto">
+						<div className="md:w-1/2 mx-auto">
 							<Table 
 								per_page={5}
 								striped={false}

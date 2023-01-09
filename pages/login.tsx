@@ -50,11 +50,11 @@ const Login = () => {
             >
 
                 <Tab title="Login" active>
-                    <div className="w-1/2 mx-auto bg-white border rounded-lg py-8 px-28">
+                    <div className="md:w-1/2 mx-auto bg-white border rounded-lg py-8 px-28">
                         <form className="space-y-2" onSubmit={handleSubmit}>
                             <div className="text-center">
                                 <label className="text-2xl font-medium text-secondary">
-                                    † Username †
+                                    Username
                                 </label>
                                 <input
                                     className="font-montserrat border border-[#767676] rounded-[25px] w-full py-3 px-5 bg-[#e6e6e6] mt-2"
@@ -76,7 +76,7 @@ const Login = () => {
 
                             <div className="text-center">
                                 <label className="text-2xl text-secondary font-medium">
-                                    † Password †
+                                    Password
                                 </label>
                                 <input
                                     className="text-dark font-montserrat border border-[#767676] rounded-[25px] w-full py-3 px-5 bg-[#e6e6e6] mt-2"

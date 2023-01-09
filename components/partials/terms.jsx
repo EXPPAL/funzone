@@ -4,7 +4,7 @@ const Terms = () => {
     return (
         <>
             <h2 className="text-4xl text-black font-normal text-center lowercase mb-12">
-                <Burn title="† Terms of Service †" />
+                Terms of Service
             </h2>
 
             <p className="text-lg text-justify mb-10">

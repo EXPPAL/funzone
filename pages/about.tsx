@@ -11,7 +11,7 @@ const About = () => {
 
             <div className="p-5">
                 <h2 className="text-3xl text-white text-center pt-2 mt-2 mb-10">
-                    <Burn title="What do you do in FunZone?" />
+                    What do you do in FunZone?
                 </h2>
 
                 <p className="border-2 rounded-lg shadow-[-1px_1px_10px_2px_rgba(255,255,255,0.5)] bg-black p-14 text-md text-justify mb-16">

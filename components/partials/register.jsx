@@ -106,7 +106,7 @@ const Register = () => {
                 <form className="space-y-4" onSubmit={handleSubmit}>
                     <div className="text-center">
                         <label className="text-2xl font-normal lowercase text-secondary">
-                            † Username †
+                            Username
                         </label>
                         <input
                             className="text-dark font-montserrat border border-[#767676] rounded-[25px] w-full py-3 px-5 bg-[#e6e6e6] mt-2"
@@ -121,7 +121,7 @@ const Register = () => {
                     </div>
                     <div className="text-center">
                         <label className="text-2xl font-normal text-secondary">
-                            † Email †
+                            Email
                         </label>
                         <input
                             className="text-dark font-montserrat border border-[#767676] rounded-[25px] w-full py-3 px-5 bg-[#e6e6e6] mt-2"
@@ -136,7 +136,7 @@ const Register = () => {
                     </div>
                     <div className="text-center">
                         <label className="text-2xl font-normal lowercase text-secondary">
-                            † Password †
+                            Password
                         </label>
                         <input
                             className="text-dark font-montserrat border border-[#767676] rounded-[25px] w-full py-3 px-5 bg-[#e6e6e6] mt-2"
@@ -252,7 +252,7 @@ const Register = () => {
                                 <div className="flex justify-center mb-10">
                                     <div className="text-center">
                                         <label className="text-2xl font-medium text-white">
-                                            <Burn title="† confirm age †" />
+                                            confirm age
                                         </label>
                                         <input
                                             type="date"
